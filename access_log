@@ -128,3 +128,18 @@
 ::1 - - [04/Aug/2020:05:28:30 +0300] "-" 408 -
 ::1 - - [04/Aug/2020:05:28:30 +0300] "-" 408 -
 ::1 - - [04/Aug/2020:07:20:56 +0300] "-" 408 -
+::1 - - [06/Aug/2020:01:05:38 +0300] "GET / HTTP/1.1" 200 329
+::1 - - [06/Aug/2020:01:05:38 +0300] "GET /favicon.ico HTTP/1.1" 404 209
+::1 - - [06/Aug/2020:01:05:40 +0300] "GET / HTTP/1.1" 200 329
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /index.html HTTP/1.1" 200 23388
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/css/bootstrap.min.css HTTP/1.1" 200 106006
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/css/styles.css HTTP/1.1" 200 14845
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/css/bootstrap-responsive.css HTTP/1.1" 200 22102
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/css/bootstrap-responsive.min.css HTTP/1.1" 200 16840
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/js/scripts.js HTTP/1.1" 200 1447
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/images/IMG_20200723_124035.jpg HTTP/1.1" 200 71137
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/js/bootstrap.min.js HTTP/1.1" 200 28631
+::1 - - [06/Aug/2020:01:05:43 +0300] "GET /action/js/popper.min.js HTTP/1.1" 200 20537
+::1 - - [06/Aug/2020:01:06:58 +0300] "-" 408 -
+::1 - - [06/Aug/2020:01:06:58 +0300] "-" 408 -
