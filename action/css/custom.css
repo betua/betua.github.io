@@ -1,10 +1,28 @@
-
+body {
+     margin: 0 ; 
+     padding: 0 ; 
+     box-sizing: border-box ; 
+     background-color:#fff;
+        }
+ html{
+      margin: 0 ; 
+      padding: 0 ; 
+      box-sizing: border-box ; 
+      background-color:#fff;
+        }
+ *{
+     margin: 0 ; 
+     padding: 0 ; 
+     box-sizing: border-box ; 
+     
+}
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
   height:auto;
   width:100%;
-  background-color:White;
+  background-color:#fff;
+  }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -15,13 +33,13 @@
   margin:1px 1px 1px 1px;
   padding:20px 55px 20px 20px;
   text-decoration: none;
-  color:#444;
+  color:#555;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
   color: #444;
   text-align: center;
-  background-color:#fff;
+  background-color:#099;
   text-decoration: none;
   }
 /* Add an active class to highlight the current page */
@@ -45,20 +63,19 @@
    display: block;
   }
   .topnav a.active {
-    background-color: cornflowerblue;
-    color:White
+    background-color: #fff;
+    color:White;
     text-decoration: none;
-    padding:20px 20px 20px 20px;
-    
+    padding:20px 20px 20px 20px;   
     }
 .topnav {
   overflow: hidden;
   height:100%;
   width:100%;
-  border: 1px solid #ccc;
-  background-color: cornflowerblue;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+  background-color:#fff;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  
+  
  }
 .topnav a {
     float: left;
@@ -67,7 +84,7 @@
     text-align: center;
     padding:20px 20px 20px 20px;
     text-decoration: none;
-    color:White;
+    color:#555;
     font-size:15px;
     
 
@@ -127,7 +144,6 @@
      list-style:none;
      text-decoration:none;
      max-width: 100px;
-     font-weight: bold;
      
     }
 .sidebar li:a {
@@ -166,7 +182,6 @@
   float:left;
   list-style:none;
   text-decoration:none;
-  font-weight: bold;
   }
 
 .sidebar li:last-child {
@@ -190,12 +205,11 @@
   display: block;
   transition: 0.3s;
   text-align: center;
-  font-weight: bold;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #555;
   background-color:#099;
 }
 
@@ -204,14 +218,20 @@
 .openbtn {
   font-size: 5px;
   cursor: pointer;
-  background-color:cornflowerblue;
-  color:White;
+  background-color:#fff;
+  color:#444;
   border: 1px;
   float:right;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 1000px 0 rgba(0, 0, 0, 0.19);
 
   
   }
+ .openbtn.active {
+    background-color:#fff;
+    color:#555;
+    text-decoration: none;
+    padding:20px 20px 20px 20px;
+    
 }
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
@@ -219,25 +239,27 @@
    top: 0;
    float:right;
    width:100%;
+   padding:19px 19px 10px 10px;
    background-color:#099;
    icon:20px;
 }
 .openbtn {
   font-size: 45px;
   cursor: pointer;
-  background-color:AppWorkspace;
-  color:White;
+  background-color:#fff;
+  color:#555;
   border: none;
   float:left;
   padding:0px 10px 10px 10px;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 1000px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
+
 
 }
 openbtn a:hover {
   font-size: 45px;
   cursor: pointer;
   background-color:cornflowerblue;
-  color:White;
+  color:#555;
   border: none;
   float:left;
   padding:0px 10px 10px 10px;
@@ -245,11 +267,21 @@ openbtn a:hover {
 .openNav{
   font-size: 45px;
   cursor: pointer;
-  background-color:cornflowerblue;
-  color:White;
+  background-color:#fff;
+  color:#555;
   border: none;
   float:left;
   padding:0px 10px 10px 10px;
+  }
+  .openNav.active{
+  font-size: 45px;
+  cursor: pointer;
+  background-color:#fff;
+  color:#555;
+  border: none;
+  float:left;
+  padding:0px 10px 10px 10px;
+  }
 }
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
@@ -277,8 +309,7 @@ openbtn a:hover {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #fff;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
- }
+  }
 
 /*নেও*/
 
@@ -302,10 +333,8 @@ openbtn a:hover {
   color:#444;
   text-decoration: none;
   background-color: #fff;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
-
- 
 }
+
 
 .topnav-nav .search-container {
   float: right;
@@ -714,7 +743,7 @@ h3{
   padding-top:25px;
   width:100%;
   background-color: #fff;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
+  
 }
 h4{
   color:#000;
@@ -723,7 +752,7 @@ h4{
   padding-top:18px;
   width:100%;
   background-color: #fff;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
+  
 }
  
  
@@ -735,8 +764,7 @@ h1{
   height:100px;
   padding-top:32px;
   width:100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+   text-align: center;
   }
   
 h2{
@@ -746,8 +774,7 @@ h2{
   padding-top:32px;
   width:100%;
   background-color: #fff;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
-
+  
 }
 
 
